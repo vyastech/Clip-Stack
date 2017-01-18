@@ -1,8 +1,10 @@
 # Clip-Stack
 
-###Deprecated
+###Revival
 
-This project is deprecated because of personal reason. 
+This project was deprecated by heruoxin because of personal reason.
+I am attempting to bring it back to life.
+
 
 这个项目由于一些私人原因已经停止更新。
 
