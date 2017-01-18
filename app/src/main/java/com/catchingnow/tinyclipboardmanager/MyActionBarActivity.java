@@ -4,13 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.internal.widget.TintImageView;
+import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -207,7 +206,7 @@ public class MyActionBarActivity extends ActionBarActivity {
                 if (outViews.isEmpty()) {
                     return;
                 }
-                TintImageView overflow=(TintImageView) outViews.get(0);
+                AppCompatImageView overflow=(AppCompatImageView) outViews.get(0);
                 //overflow.setColorFilter(Color.CYAN);
                 overflow.setImageResource(imageID);
                 removeOnGlobalLayoutListener(decorView, this);
